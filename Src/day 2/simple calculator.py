@@ -1,6 +1,4 @@
-Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> num1=input ("enter the number")
-enter the number 3
->>> num2=input ("enter next number")
-enter next number 4
+num1=input ("enter the number:")
+num2=input ("enter next number:")
+total = int(num1)+int(num2)
+print("The total is:",total)
